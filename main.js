@@ -41,7 +41,7 @@ function crearNuevaTarea(descripcion, prioridad) {
 }
 
 botonAgregar.addEventListener('click', function(){
-    crearNuevaTarea(barrita.value, "prioridad-alta")
+    crearNuevaTarea(barrita.value, listaDeBoton.value)
 });
 listaDeTareasUL.addEventListener('click', function(evento){
    evento.target.removeEventListener();
